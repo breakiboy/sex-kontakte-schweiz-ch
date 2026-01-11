@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sex-kontakte-schweiz.ch/sitemap.xml
