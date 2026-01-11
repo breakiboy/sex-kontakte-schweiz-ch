@@ -212,6 +212,17 @@
     </div>
   </section>
 
+  <!-- Callgirl Section -->
+  <section class="content-section">
+    <h2 class="section-title">Callgirls</h2>
+    <div class="cards-container" id="callgirl-ads-container">
+      <div class="loading-spinner"></div>
+    </div>
+    <div class="section-cta-small">
+      <a href="https://6love.ch/de/ads?category=2" class="cta-button-small">Alle Callgirls</a>
+    </div>
+  </section>
+
   <!-- Best Voted Ads Section -->
   <section class="content-section">
     <h2 class="section-title">Best bewertete Inserate</h2>
@@ -383,6 +394,7 @@
 
     document.addEventListener('DOMContentLoaded', () => {
       fetchPremiumAds();
+      fetchCallgirlAds();
       fetchBestVotedAds();
       fetchMostVotedProfiles();
       fetchLiveBanners();
